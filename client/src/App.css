@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+button { border: none; cursor: pointer; }
+button:hover { background-color: black; }
+.header { background: rgba(44,107,46,0.9); }
+.th-dark { color: rgba(44,107,46,0.9); }
+.th-light { background: #DDE6D9; }
+.th-black { background: #2e4a22; }
+::selection { background-color: lightgray; }
+
+@media screen and (min-width:800px) {
+  .center { width: 85%; }
+}
